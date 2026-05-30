@@ -4,7 +4,7 @@
 ![Turma](https://img.shields.io/badge/UNIPDS-1ª%20Turma-blue)
 ![Foco](https://img.shields.io/badge/Foco-IA%20Aplicada-purple)
 
-Bem-vindo ao repositório oficial do **Grupo de Estudos da 1ª Turma de Engenharia de Software em IA Aplicada da UNIPDS**.
+Bem-vindo ao repositório do **Grupo de Estudos da 1ª Turma de Engenharia de Software em IA Aplicada da UNIPDS**.
 
 Este espaço foi criado para centralizar informações, discussões, materiais de apoio, projetos, desafios técnicos e iniciativas colaborativas desenvolvidas pelos participantes do grupo.
 
@@ -112,3 +112,11 @@ Mais do que estudar Inteligência Artificial, queremos desenvolver a capacidade 
 Não importa se você está começando ou já possui experiência na área.
 
 O importante é ter curiosidade, vontade de aprender e disposição para construir junto com a comunidade.
+
+---
+
+ℹ️ Aviso
+
+Este grupo não possui vínculo oficial com a UNIPDS.
+
+Trata-se de uma iniciativa independente criada por alunos da pós-graduação com o objetivo de promover estudos, troca de experiências, colaboração técnica e desenvolvimento de projetos relacionados aos temas abordados durante o curso.
