@@ -40,6 +40,18 @@ O fluxo inicialmente imaginado pelo grupo é:
 6. O resultado da análise é armazenado.
 7. Futuramente essas informações poderão ser consultadas através de um Dashboard.
 
+```mermaid
+flowchart TD
+    A["1. Cliente inicia atendimento via WhatsApp"] --> B["2. Atendimento ocorre normalmente"]
+    B --> C["3. Atendimento é encerrado"]
+    C --> D["4. Processo periódico identifica atendimentos encerrados"]
+    D --> E["5. Agente de IA analisa cada conversa"]
+    E --> F["6. Resultado da análise é armazenado"]
+    F -.-> G["7. Dashboard (futuro)"]
+
+    style G stroke-dasharray: 5 5
+```
+
 > **Observação**
 >
 > Ainda precisamos definir quais critérios caracterizam um atendimento como encerrado.
@@ -219,37 +231,47 @@ A análise deverá produzir informações como:
 
 Os itens abaixo ainda precisam ser definidos pelo grupo.
 
+A definição da **persona do cliente** é o ponto de partida: respondê-la primeiro ajuda a elaborar as demais regras — critérios de qualidade, categorias, encerramento de atendimento e escopo do MVP.
+
 ## RN01
 
-Como identificar que um atendimento foi encerrado?
+Qual é a persona do nosso cliente?
+
+> **Prioridade:** Esta é a primeira pergunta que o grupo deve responder. A persona define o contexto do laboratório e orienta as demais decisões deste documento.
 
 ---
 
 ## RN02
 
-Quais critérios definem a qualidade de um atendimento?
+Como identificar que um atendimento foi encerrado?
 
 ---
 
 ## RN03
 
-Como determinar que um problema foi realmente resolvido?
+Quais critérios definem a qualidade de um atendimento?
 
 ---
 
 ## RN04
 
-Como categorizar um atendimento?
+Como determinar que um problema foi realmente resolvido?
 
 ---
 
 ## RN05
 
-Como calcular SLA?
+Como categorizar um atendimento?
 
 ---
 
 ## RN06
+
+Como calcular SLA?
+
+---
+
+## RN07
 
 Quais tipos de atendimento existirão?
 
@@ -259,12 +281,6 @@ Exemplo:
 - Suporte
 - Financeiro
 - Customer Success
-
----
-
-## RN07
-
-Qual empresa fictícia será utilizada como contexto para o laboratório?
 
 ---
 
@@ -283,8 +299,9 @@ As funcionalidades abaixo foram levantadas durante o brainstorming, porém dever
 
 # ❓ Questões para Discussão
 
-Durante o refinamento dos requisitos, gostaríamos de responder às seguintes perguntas:
+Durante o refinamento dos requisitos, gostaríamos de responder às seguintes perguntas — **começando pela persona**, que serve de base para as demais:
 
+- **Qual é a persona do nosso cliente?** *(ponto de partida)*
 - O que caracteriza um atendimento encerrado?
 - Quais informações são obrigatórias para uma análise?
 - Como medir a qualidade de um atendimento?
@@ -296,7 +313,9 @@ Durante o refinamento dos requisitos, gostaríamos de responder às seguintes pe
 
 # 🎯 Próximo Passo
 
-Após a validação deste documento, os requisitos serão refinados e transformados em:
+O primeiro passo do refinamento é **definir a persona do nosso cliente**. Com ela definida, o grupo poderá validar e detalhar as demais regras de negócio.
+
+Em seguida, os requisitos serão transformados em:
 
 - Épicos
 - Issues
